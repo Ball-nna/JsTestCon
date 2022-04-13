@@ -1,0 +1,36 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Courier New', Courier, monospace;
+}
+:root{
+  --clr: #ffa500;
+}
+
+
+
+
+
+
+
+
+.gradient-custom-3 {
+    /* fallback for old browsers */
+    background: #ee930a;
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, rgba(214, 177, 13, 0.5), rgba(226, 177, 17, 0.5));
+  
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, rgba(174, 127, 16, 0.5), rgba(222, 142, 23, 0.5))
+  }
+  .gradient-custom-4 {
+    /* fallback for old browsers */
+    background: #ee9210;
+  
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, rgb(225, 167, 5), rgb(228, 175, 13));
+  
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, rgb(220, 149, 42), rgb(227, 181, 15))
+  }
