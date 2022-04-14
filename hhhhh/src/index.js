@@ -4,13 +4,13 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter,Routes,Route } from "react-router-dom";
-import Login from './Login.js'
+import Login from './login.html'
 
 ReactDOM.render(
   <BrowserRouter>
     <Routes>
       <Route path="/" element={<App />}/>
-      <Route path="/login" element={<Login />}/>
+      <Route path="/login" element={<login />}/>
 
     </Routes>
   </BrowserRouter>,

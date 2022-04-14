@@ -4,7 +4,7 @@
     "nodemon": "^2.0.15"
   },
   "scripts": {
-    "devStart":"nodemon server.js"
+    "devStart": "nodemon server.js"
   },
   "name": "backend",
   "version": "1.0.0",
@@ -17,6 +17,7 @@
     "anymatch": "^3.1.2",
     "balanced-match": "^1.0.2",
     "binary-extensions": "^2.2.0",
+    "body-parser": "^1.20.0",
     "boxen": "^5.1.2",
     "brace-expansion": "^1.1.11",
     "braces": "^3.0.2",
@@ -31,6 +32,7 @@
     "color-name": "^1.1.4",
     "concat-map": "^0.0.1",
     "configstore": "^5.0.1",
+    "cors": "^2.8.5",
     "crypto-random-string": "^2.0.0",
     "debug": "^3.2.7",
     "decompress-response": "^3.3.0",
@@ -69,6 +71,7 @@
     "is-typedarray": "^1.0.0",
     "is-yarn-global": "^0.3.0",
     "json-buffer": "^3.0.0",
+    "jsonwebtoken": "^8.5.1",
     "keyv": "^3.1.0",
     "latest-version": "^5.1.0",
     "lowercase-keys": "^1.0.1",
